@@ -1,0 +1,9 @@
+{
+  "players"   : [["good", "alpha", "../we/dont/do/dynamic/loading"],
+                 ["good", "beta", "../see/above"],
+                 ["breaker", "charlie", "../see/above/again"],
+                 ["breaker", "delta", "../see/above/once/again"]],
+  "observers" : [],
+  "ip"        : "antarctica.ccs.neu.edu",
+  "port"      : 55556
+}

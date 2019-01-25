@@ -1,0 +1,22 @@
+#! /bin/sh
+
+printf "XBoard Tests:\n"
+cd ./6
+./TESTME
+
+printf "\nXRules Tests:\n"
+cd ../7
+./TESTME
+
+printf "\nXStrategy Tests:\n"
+cd ../8
+./TESTME
+
+
+printf "\nXTournament Tests:\n"
+cd ../11
+./TESTME
+
+printf "\nNEW TESTS:\n"
+cd ../Santorini
+./TESTME

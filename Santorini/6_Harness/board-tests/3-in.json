@@ -1,0 +1,10 @@
+[
+    [2, 3],
+    [3, "0jack1"],
+    ["2jack2", 3, "0jill1"],
+    [2, 3, "0jill2"]
+
+]
+["neighbors", "jack2", ["EAST", "NORTH"]]
+["height", "jill2", ["WEST", "NORTH"]]
+["occupied?", "jack2", ["EAST", "NORTH"]]

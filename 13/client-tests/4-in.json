@@ -1,0 +1,8 @@
+{
+  "players"   : [["good", "foobar", "../we/dont/do/dynamic/loading"],
+                 ["good", "barfoo", "../see/above"],
+                 ["infinite", "barfus", "../see/above/again"]],
+  "observers" : [],
+  "ip"        : "antarctica.ccs.neu.edu",
+  "port"      : 55556
+}

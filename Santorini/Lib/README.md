@@ -1,0 +1,1 @@
+Lib contains all library code for Santorini. However, please use 'go get ./...' to properly set up your dependencies for this project, instead of copying from lib.

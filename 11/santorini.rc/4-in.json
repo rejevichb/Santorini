@@ -1,0 +1,6 @@
+{
+  "players":[
+    ["good", "Don", "../Santorini/plugins/valid.so"],
+    ["good", "Ron", "../Santorini/plugins/valid.so"]],
+  "observers": []
+}

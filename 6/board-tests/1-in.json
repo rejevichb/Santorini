@@ -1,0 +1,43 @@
+[
+  [1,  2,     3, 0, 0, "0a2"],
+  [2, "1a1",  2, 0, 0, 0],
+  [0,  0,     0, 0 ,0 ,0],
+  [0,  0,     0, 0 ,0 ,2],
+  [0,  0,     0, 0 ,1 ,"3b1"],
+  [0,  0,     0, 0 ,0 ,"1b2"]
+]
+
+["neighbors", "a1", ["EAST","PUT"]]
+["neighbors", "a1", ["WEST","PUT"]]
+["neighbors", "a1", ["PUT","NORTH"]]
+["neighbors", "a1", ["PUT","SOUTH"]]
+["neighbors", "a1", ["WEST","NORTH"]]
+["neighbors", "a1", ["WEST","SOUTH"]]
+["neighbors", "a1", ["EAST","NORTH"]]
+["neighbors", "a1", ["EAST","SOUTH"]]
+
+["neighbors", "a2", ["EAST","PUT"]]
+["neighbors", "a2", ["WEST","PUT"]]
+["neighbors", "a2", ["PUT","NORTH"]]
+["neighbors", "a2", ["PUT","SOUTH"]]
+["neighbors", "a2", ["WEST","NORTH"]]
+["neighbors", "a2", ["WEST","SOUTH"]]
+["neighbors", "a2", ["EAST","NORTH"]]
+["neighbors", "a2", ["EAST","SOUTH"]]
+
+["neighbors", "b2", ["EAST","SOUTH"]]
+["neighbors", "b2", ["WEST","SOUTH"]]
+["neighbors", "b2", ["PUT","SOUTH"]]
+["neighbors", "b2", ["PUT", "NORTH"]]
+
+["neighbors", "b1", ["PUT", "SOUTH"]]
+["neighbors", "b1", ["EAST", "SOUTH"]]
+["neighbors", "b1", ["EAST", "PUT"]]
+["neighbors", "b1", ["EAST", "NORTH"]]
+["neighbors", "b1", ["WEST", "NORTH"]]
+
+
+
+
+
+

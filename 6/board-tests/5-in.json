@@ -1,0 +1,42 @@
+[
+  [1,  2,     3, 0, 0, "0a2"],
+  [0, "1a1",  2, 0, 0, 0],
+  [0,  0,     0, 0 ,0 ,0],
+  [0,  0,     0, 0 ,0 ,2],
+  [0, "1b1",  0, 0 ,1 ,1],
+  [0,  0,     0, 0 ,0 ,"1b2"]
+]
+
+["move", "b1", ["PUT","SOUTH"]]
+["height", "b1", ["PUT", "NORTH"]]
+["build", "b1", ["PUT","NORTH"]]
+["height", "b1", ["PUT", "NORTH"]]
+["occupied?", "b1", ["PUT", "NORTH"]]
+
+["move", "a2", ["WEST","SOUTH"]]
+["build", "a2", ["EAST","PUT"]]
+["height", "a2", ["EAST", "PUT"]]
+
+["move", "b2", ["WEST","PUT"]]
+["build", "b2", ["PUT","NORTH"]]
+["height", "b2", ["PUT", "NORTH"]]
+["occupied?", "b2", ["EAST", "PUT"]]
+
+["height", "a1", ["WEST", "PUT"]]
+["move", "a1", ["WEST","NORTH"]]
+["build", "a1", ["PUT","SOUTH"]]
+["height", "a1", ["PUT", "SOUTH"]]
+
+["move", "b2", ["WEST","PUT"]]
+["build", "b2", ["PUT","NORTH"]]
+
+["move", "a1", ["EAST","PUT"]]
+["build", "a1", ["PUT", "SOUTH"]]
+
+["move", "b2", ["WEST","PUT"]]
+["build", "b2", ["PUT","NORTH"]]
+
+["move", "a2", ["EAST", "PUT"]]
+["build", "a2", ["WEST", "PUT"]]
+
+["occupied?", "b2", ["WEST", "PUT"]]

@@ -1,0 +1,23 @@
+#! /bin/sh
+
+printf "XBoard Tests:\n"
+cd 6_Harness
+./TESTME
+cd ..
+
+printf "\nXRules Tests:\n"
+cd 7_Harness
+./TESTME
+cd ..
+
+printf "\nXStrategy Tests:\n"
+cd 8_Harness
+./TESTME
+cd ..
+
+printf "\nSantorini Unit Tests:\n"
+go test ./Common/...
+go test ./Admin/...
+go test ./Lib/...
+go test ./Observer/...
+go test ./Player/...

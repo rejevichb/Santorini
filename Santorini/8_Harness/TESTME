@@ -1,0 +1,7 @@
+#! /bin/sh
+export DIFF_OPTIONS="-s -W -B"
+
+printf "Test 3:"
+cat ./strategy-tests/3-in.json | ./xstrategy | sdiff ./strategy-tests/3-out.json - $DIFF_OPTIONS
+
+printf "\nTests Completed for XStrategy. Any differences displayed above.\n"

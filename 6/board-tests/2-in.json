@@ -1,0 +1,34 @@
+[
+  [1,  2,     3, 0, 0, 0],
+  [2, "1a1",  2, 0, 0, 0],
+  [0, "0a2",  0, 0 ,0 ,0],
+  [0,  0,     0, 0 ,0 ,2],
+  [0,  0,     0, 0 ,1 ,"3b1"],
+  [0,  0,     0, 0 ,0 ,"1b2"]
+]
+
+["occupied?", "a1", ["EAST","PUT"]]
+["occupied?", "a1", ["WEST","PUT"]]
+["occupied?", "a1", ["PUT","NORTH"]]
+["occupied?", "a1", ["PUT","SOUTH"]]
+["occupied?", "a1", ["WEST","NORTH"]]
+["occupied?", "a1", ["WEST","SOUTH"]]
+["occupied?", "a1", ["EAST","NORTH"]]
+["occupied?", "a1", ["EAST","SOUTH"]]
+
+["occupied?", "b1", ["WEST","SOUTH"]]
+["occupied?", "b1", ["PUT","NORTH"]]
+["occupied?", "b1", ["WEST","PUT"]]
+["occupied?", "b1", ["WEST","NORTH"]]
+
+["occupied?", "b2", ["PUT","NORTH"]]
+["occupied?", "b1", ["PUT","SOUTH"]]
+
+["occupied?", "a2", ["EAST","PUT"]]
+["occupied?", "a2", ["WEST","PUT"]]
+["occupied?", "a2", ["PUT","NORTH"]]
+["occupied?", "a2", ["PUT","SOUTH"]]
+["occupied?", "a2", ["WEST","NORTH"]]
+["occupied?", "a2", ["WEST","SOUTH"]]
+["occupied?", "a2", ["EAST","NORTH"]]
+["occupied?", "a2", ["EAST","SOUTH"]]

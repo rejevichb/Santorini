@@ -1,0 +1,19 @@
+#! /bin/sh
+export DIFF_OPTIONS="-s -W -B"
+
+printf "Test 1:"
+cat ./rules-tests/1-in.json | ./xrules | sdiff ./rules-tests/1-out.json - $DIFF_OPTIONS
+
+printf "\nTest 2:"
+cat ./rules-tests/2-in.json | ./xrules | sdiff ./rules-tests/2-out.json - $DIFF_OPTIONS
+
+printf "\nTest 3:"
+cat ./rules-tests/3-in.json | ./xrules | sdiff ./rules-tests/3-out.json - $DIFF_OPTIONS
+
+printf "\nTest 4:"
+cat ./rules-tests/4-in.json | ./xrules | sdiff ./rules-tests/4-out.json - $DIFF_OPTIONS
+
+printf "\nTest 5:"
+cat ./rules-tests/5-in.json | ./xrules | sdiff ./rules-tests/5-out.json - $DIFF_OPTIONS
+
+printf "\nTests Completed for XRules. Any differences displayed above.\n"

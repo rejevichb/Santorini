@@ -1,0 +1,7 @@
+{
+  "players":[
+    ["good", "Don", "../Santorini/plugins/valid.so"],
+    ["infinite", "Ron", "../Santorini/plugins/infplace.so"],
+    ["infinite", "Zon", "../Santorini/plugins/infturn.so"]],
+  "observers": []
+}
