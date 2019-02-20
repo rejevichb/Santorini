@@ -8,6 +8,11 @@ Within this folder:
   - `6/`: Santorini Board test harness
   - `7/`: Santorini Board and Rules test harness
   - `8/`: Santorini Strategy test harness
+  - `9/`: Santorini Strategy test harness
+  - `10/`: Santorini Strategy test harness
+  - `11/`: Santorini Strategy test harness
+  - `120ff/`: Santorini Strategy test harness
+  - `13/`: Santorini Strategy test harness
   - `Santorini/`: Santorini source code and unit tests
 
 # Tests
