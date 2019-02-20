@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
+	//run final client-server harness test
 	reader.RunTest(os.Stdin, os.Stdout)
 }
